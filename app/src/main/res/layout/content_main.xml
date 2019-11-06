@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="rndmjck.com.si_tifuniks.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_shape_info"
+            android:text="Profile"
+            android:id="@+id/button_profile"
+            />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_shape_success"
+            android:text="Info"
+            android:layout_toRightOf="@+id/button_profile"
+            android:id="@+id/button_info"
+            />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_shape_primary"
+            android:text="Jadwal Kuliah"
+            android:id="@+id/button_jadwal_kuliah"
+            android:layout_below="@+id/button_profile"
+            />
+
+        <Button
+            android:id="@+id/button_gallery_mahasiswa"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/button_info"
+            android:layout_toRightOf="@+id/button_jadwal_kuliah"
+            android:background="@drawable/button_shape_default"
+            android:text="Gallery Mahasiswa" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

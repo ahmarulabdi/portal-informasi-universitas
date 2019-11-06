@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_text_view_nama_jadwal_kuliah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Nama" />
+
+        <TextView
+            android:id="@+id/item_text_view_tempat_jadwal_kuliah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Tempat" />
+
+        <TextView
+            android:id="@+id/item_text_view_hari_jadwal_kuliah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Hari" />
+
+        <TextView
+            android:id="@+id/item_text_view_mulai_selesai_jadwal_kuliah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Mulai Selesai" />
+
+        <TextView
+            android:id="@+id/item_text_view_nama_dosen_jadwal_kuliah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Nama Dosen" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
